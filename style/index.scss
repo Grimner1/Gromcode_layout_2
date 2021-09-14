@@ -1,0 +1,22 @@
+@import 'veriables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #141b1c;
+}
+
+@import 'price-tables.scss';
